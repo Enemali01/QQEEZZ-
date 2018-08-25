@@ -1,0 +1,274 @@
+@import "bootstrap/css/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+.nav-link{
+    color:#1E1E96 !important;
+    font-weight: bold;
+}
+ 
+.ce{
+    position: absolute;
+    top: -10% !important;
+    left:69%;
+    padding-top:20px;
+    padding-bottom: 4px;
+    list-style: none;
+}
+.c{
+    position: absolute;
+    top: -10% !important;
+    left:78%;
+    padding-top:22px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+.nav-line{
+    list-style: none;
+  
+}
+#hero{
+    background : url('../img/BG.png') no-repeat fixed;
+    height: 553px;
+    background-size: cover;
+  /* background-attachment: fixed; */
+   
+}
+.btn-hit{
+    background: #FFFFFF !important;
+    border-radius:10px !important;
+    color:#1E1E96 !important;
+    border-bottom:1px solid #fff !important;
+    width:33%;
+    margin:2px;
+     
+}
+.name{
+    padding-top: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+.desc{
+    font-family: Montserrat;
+    font-weight: 20;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-bottom: 201px;
+}
+
+
+#cards{
+    padding-top: 90px;
+}
+.header{
+    font-size: 24px;
+}
+.top{
+    z-index: 100;
+    margin-bottom: 30px;
+    max-width: 95%;
+}
+.cards{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 30px 30px 27px 30px;
+    position: relative;
+    z-index: 2;
+    color: #1E1E96;
+    box-sizing: border-box;
+}
+.carder{
+    border: 2px #EAE8EB solid;
+    border-radius: 15px;
+    z-index: 1;
+}
+.sepp{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    z-index: -2;
+}
+#amsterdam{
+    background: url('../img/Rectangle.png') no-repeat fixed;
+    background-size: cover;
+    
+}
+.horizontal-line{
+    width:20%;
+    height:3px;
+    background: #00FFC8;
+}
+.btn-go{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold !important;
+    line-height: normal;
+    font-size: 18px;
+    width: 140px;
+    color: #1E1E96 !important;
+    background: #00FFC8 !important;
+    border-radius: 30px !important;
+    border:1px solid #00FFC8 !important;
+}
+
+.eerste-h2{
+    color:#1E1E96;
+    font-size: 30px;
+}
+.eerste-p{
+    font-size: 12px;
+}
+.eerste-des{
+    color:#1E1E96;
+    font-size: 18px;
+}
+.eerste-dess{
+    font-size: 12px;   
+}
+.word{
+    background: #EAE8EB;
+    border:1px  solid #EAE8EB;
+    height:230px;
+    margin-top:30px;
+    border-radius:10px;
+    padding-top:30px;
+}
+.eerste-word{
+    font-size:10px;
+    color:#1E1E96;
+}
+.eerste-h1{
+    color:#1E1E96;
+}
+.eerste-h4{
+ color:#1E1E96;
+}
+.h1-word{
+    font-size:10px;
+
+}
+.carousel-indicators li{
+    border-radius:50%;
+    width:10px !important;
+    height: 10px !important;
+    background:#fff !important;
+ }
+ 
+.blog-body-text{
+    position: relative;
+    top:-226px;
+    left:4px;
+    color:#00FFC8;
+    font-size: 10px;
+}
+.blog-body-text-p{
+    position: relative;
+    top:-260px;
+    left:4px;
+    color:#00FFC8;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 3;
+}
+.horizontal-body{
+    position: relative;
+    top:-240px;
+    width:10%;
+    left:-219px;
+    background: #FFFFFF;
+}
+.horizontal-body-1{
+    position: relative;
+    top:-240px;
+    width:16%;
+    right:101px;
+    background: #FFFFFF;
+}
+.blog-body-text-p-1{
+    position: relative;
+    top:-260px;
+    left:4px;
+    color:#00FFC8;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 3;
+}
+.last{
+    margin-top:-108px;
+}
+.h4-text-face{
+    color: #1E1E96;
+    text-align: center;
+}
+.btn-face{
+    background: #1E1E96 !important;
+    border-radius: 16px !important;
+}
+
+ @media (max-width:767px){
+    .ce, .c{
+        position: absolute;
+        top:1% !important;
+        right:6%;
+        margin-left:-210px !important;
+       list-style: none;
+    }
+    .responsive{
+        width:50px;
+        
+    }
+    #hero{
+        background : url('../img/BG.png') no-repeat fixed;
+        height: 453px;
+        background-size: cover;
+        background-position: center;
+          
+    }
+    .btn-hit{
+        width:100% !important;
+        margin-top:-40%;
+    }
+    .btn-go{
+        width:100% !important;
+    }
+    .eerste-dess{
+        font-size: 12px;
+        text-align: center;
+    }
+    .blog-body-text{
+        position: relative;
+        top:-60%!important;
+        font-size:18px;
+        text-align: center;
+    }
+    .blog-body-text-p{
+        position: relative;
+        top:-69%!important;
+        font-size:18px;
+        text-align: center;
+    }
+    .horizontal-body{
+        position: relative;
+        top:-190px;
+        width:10%;
+        left:5px;
+        background: #FFFFFF;
+    }
+    .blog-body-text-p-1{
+        position: relative;
+        top:-69%!important;
+        font-size:18px;
+        text-align: center;
+    }
+    .image-responsive-2{
+        width: 500px !important;
+        margin-top:-80px !important;
+    }
+} 
+
+ 
